@@ -16,7 +16,7 @@ public class ServerInfoController {
     @ResponseBody
     public String getVersion() {
         JSONObject json = new JSONObject();
-        json.put("version", "1.0");
+        json.put("version", "2.0");
         json.put("description", "simple");
         json.put("apkUrl", "http://182.61.4.65:8080/safeguard/safeguard.apk");
         return json.toJSONString();

@@ -18,7 +18,7 @@ public class ServerInfoController {
         JSONObject json = new JSONObject();
         json.put("version", "1.0");
         json.put("description", "simple");
-        json.put("apkUrl", "http;/10.0.2.2:8080/safeguard.apk");
+        json.put("apkUrl", "http://182.61.4.65/safeguard.apk");
         return json.toJSONString();
     }
 }
